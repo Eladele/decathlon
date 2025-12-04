@@ -1,0 +1,212 @@
+.exercise-list-container {
+    min-height: calc(100vh - 80px);
+    padding: var(--spacing-xl) 0;
+}
+
+.exercise-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.exercise-title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-sm);
+}
+
+.exercise-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--gray-text);
+}
+
+.profile-summary {
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+.profile-summary h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-sm);
+}
+
+.profile-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+    justify-content: center;
+}
+
+.tag {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.tag-level {
+    background: var(--gradient-primary);
+}
+
+.tag-goal {
+    background: var(--gradient-success);
+}
+
+.category-filters {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+    overflow-x: auto;
+    padding-bottom: var(--spacing-xs);
+}
+
+.category-button {
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: var(--dark-card);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--gray-text);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.category-button:hover {
+    border-color: var(--primary-blue);
+    color: var(--light-text);
+}
+
+.category-button.active {
+    background: var(--gradient-primary);
+    border-color: var(--primary-blue);
+    color: var(--light-text);
+    box-shadow: var(--shadow-glow);
+}
+
+.exercises-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.exercise-card {
+    padding: var(--spacing-lg);
+    text-decoration: none;
+    color: var(--light-text);
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.exercise-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-blue);
+}
+
+.exercise-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exercise-icon {
+    font-size: var(--font-size-3xl);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-md);
+}
+
+.difficulty-badge {
+    padding: 4px 12px;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.difficulty-beginner {
+    background: var(--gradient-success);
+}
+
+.difficulty-intermediate {
+    background: var(--gradient-accent);
+}
+
+.difficulty-advanced {
+    background: var(--gradient-purple);
+}
+
+.exercise-name {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-top: var(--spacing-sm);
+}
+
+.exercise-description {
+    color: var(--gray-text);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    flex: 1;
+}
+
+.exercise-muscles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.muscle-tag {
+    padding: 4px 10px;
+    background: rgba(0, 130, 195, 0.2);
+    border: 1px solid var(--primary-blue);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    color: var(--primary-blue-light);
+}
+
+.exercise-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: var(--spacing-sm);
+}
+
+.view-more {
+    color: var(--primary-blue-light);
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+}
+
+.no-results {
+    text-align: center;
+    padding: var(--spacing-2xl);
+    color: var(--gray-text);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .exercises-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .exercise-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .category-filters {
+        justify-content: flex-start;
+    }
+}

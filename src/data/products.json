@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Tapis de Yoga Premium",
+        "price": 29.99,
+        "category": "Yoga",
+        "relatedExercises": [
+            4,
+            6
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p1234567/yoga-mat.jpg",
+        "description": "Tapis de yoga antidérapant, épais et confortable pour vos séances.",
+        "decathlonUrl": "https://www.decathlon.fr/tapis-yoga"
+    },
+    {
+        "id": 2,
+        "name": "Bandes de Résistance (Set de 3)",
+        "price": 14.99,
+        "category": "Fitness",
+        "relatedExercises": [
+            1,
+            5
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p2345678/resistance-bands.jpg",
+        "description": "Set de 3 bandes élastiques pour intensifier vos exercices de jambes.",
+        "decathlonUrl": "https://www.decathlon.fr/bandes-resistance"
+    },
+    {
+        "id": 3,
+        "name": "Push-up Bars",
+        "price": 19.99,
+        "category": "Musculation",
+        "relatedExercises": [
+            2
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p3456789/pushup-bars.jpg",
+        "description": "Poignées pour pompes qui réduisent la pression sur les poignets.",
+        "decathlonUrl": "https://www.decathlon.fr/poignees-pompes"
+    },
+    {
+        "id": 4,
+        "name": "Kettlebell 8kg",
+        "price": 24.99,
+        "category": "Musculation",
+        "relatedExercises": [
+            1,
+            5
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p4567890/kettlebell.jpg",
+        "description": "Kettlebell robuste pour intensifier vos squats et fentes.",
+        "decathlonUrl": "https://www.decathlon.fr/kettlebell"
+    },
+    {
+        "id": 5,
+        "name": "Tenue de Sport Respirante",
+        "price": 39.99,
+        "category": "Vêtements",
+        "relatedExercises": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p5678901/sport-outfit.jpg",
+        "description": "Ensemble confortable et respirant pour tous vos entraînements.",
+        "decathlonUrl": "https://www.decathlon.fr/vetements-sport"
+    },
+    {
+        "id": 6,
+        "name": "Bloc de Yoga",
+        "price": 9.99,
+        "category": "Yoga",
+        "relatedExercises": [
+            4,
+            6
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p6789012/yoga-block.jpg",
+        "description": "Bloc en mousse pour faciliter les postures de yoga.",
+        "decathlonUrl": "https://www.decathlon.fr/bloc-yoga"
+    },
+    {
+        "id": 7,
+        "name": "Gourde Sport 750ml",
+        "price": 7.99,
+        "category": "Accessoires",
+        "relatedExercises": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p7890123/water-bottle.jpg",
+        "description": "Gourde isotherme pour rester hydraté pendant vos séances.",
+        "decathlonUrl": "https://www.decathlon.fr/gourde"
+    },
+    {
+        "id": 8,
+        "name": "Rouleau de Massage",
+        "price": 19.99,
+        "category": "Récupération",
+        "relatedExercises": [
+            1,
+            2,
+            5
+        ],
+        "imageUrl": "https://contents.mediadecathlon.com/p8901234/foam-roller.jpg",
+        "description": "Rouleau en mousse pour la récupération musculaire.",
+        "decathlonUrl": "https://www.decathlon.fr/rouleau-massage"
+    }
+]

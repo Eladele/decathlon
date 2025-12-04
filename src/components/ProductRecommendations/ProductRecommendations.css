@@ -1,0 +1,191 @@
+.products-section {
+    margin: var(--spacing-2xl) 0;
+}
+
+.products-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-sm);
+}
+
+.products-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--gray-text);
+    margin-bottom: var(--spacing-xl);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.product-card {
+    padding: 0;
+    overflow: hidden;
+    transition: all var(--transition-normal);
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.product-image-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, var(--dark-card) 0%, var(--dark-card-hover) 100%);
+}
+
+.product-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-icon {
+    font-size: 5rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.product-category-badge {
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    padding: 6px 12px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-content {
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.product-name {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--light-text);
+    margin-bottom: var(--spacing-xs);
+}
+
+.product-description {
+    color: var(--gray-text);
+    line-height: 1.6;
+    font-size: var(--font-size-sm);
+    flex: 1;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-color);
+}
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-amount {
+    font-size: var(--font-size-2xl);
+    font-weight: 800;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.btn-buy {
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: var(--gradient-primary);
+    color: var(--light-text);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.btn-buy:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+}
+
+.decathlon-banner {
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(247, 147, 30, 0.1) 100%);
+    border: 2px solid rgba(255, 107, 53, 0.3);
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.banner-icon {
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.banner-text {
+    flex: 1;
+}
+
+.banner-text h3 {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.banner-text p {
+    color: var(--gray-text);
+    font-size: var(--font-size-base);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-buy {
+        text-align: center;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-text h3 {
+        font-size: var(--font-size-xl);
+    }
+}

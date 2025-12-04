@@ -1,0 +1,193 @@
+.qcm-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-md);
+    min-height: calc(100vh - 80px);
+}
+
+.qcm-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.qcm-title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-sm);
+}
+
+.qcm-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--gray-text);
+    margin-bottom: var(--spacing-lg);
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: var(--dark-card);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: var(--spacing-xs);
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--gradient-primary);
+    transition: width var(--transition-normal);
+    box-shadow: 0 0 10px rgba(0, 130, 195, 0.5);
+}
+
+.progress-text {
+    font-size: var(--font-size-sm);
+    color: var(--gray-text);
+    font-weight: 600;
+}
+
+.question-card {
+    padding: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.question-text {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-lg);
+    color: var(--light-text);
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+}
+
+.option-button {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--dark-card);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--light-text);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    text-align: left;
+}
+
+.option-button:hover {
+    background: var(--dark-card-hover);
+    border-color: var(--primary-blue-light);
+    transform: translateX(4px);
+}
+
+.option-button.selected {
+    background: linear-gradient(135deg, rgba(0, 130, 195, 0.2) 0%, rgba(0, 160, 227, 0.2) 100%);
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 20px rgba(0, 130, 195, 0.3);
+}
+
+.option-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    font-size: var(--font-size-sm);
+    flex-shrink: 0;
+    transition: all var(--transition-fast);
+}
+
+.option-button.selected .option-check {
+    background: var(--gradient-primary);
+    border-color: var(--primary-blue);
+}
+
+.option-label {
+    flex: 1;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+}
+
+.btn {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    border: none;
+    flex: 1;
+}
+
+.btn-primary {
+    background: var(--gradient-primary);
+    color: var(--light-text);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background: var(--dark-card);
+    color: var(--light-text);
+    border: 2px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+    background: var(--dark-card-hover);
+    border-color: var(--primary-blue);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .qcm-container {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+
+    .qcm-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .qcm-subtitle {
+        font-size: var(--font-size-base);
+    }
+
+    .question-card {
+        padding: var(--spacing-lg);
+    }
+
+    .question-text {
+        font-size: var(--font-size-xl);
+    }
+
+    .option-button {
+        padding: var(--spacing-sm);
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+    }
+}

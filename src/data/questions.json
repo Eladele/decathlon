@@ -1,0 +1,241 @@
+[
+    {
+        "id": 1,
+        "question": "Quel est votre niveau d'expérience en fitness ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "débutant",
+                "label": "Débutant - Je commence tout juste",
+                "points": {
+                    "level": "débutant"
+                }
+            },
+            {
+                "value": "intermédiaire",
+                "label": "Intermédiaire - Je m'entraîne régulièrement",
+                "points": {
+                    "level": "intermédiaire"
+                }
+            },
+            {
+                "value": "avancé",
+                "label": "Avancé - Je suis un athlète confirmé",
+                "points": {
+                    "level": "avancé"
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Quels sports pratiquez-vous ? (plusieurs choix possibles)",
+        "type": "multiple",
+        "options": [
+            {
+                "value": "musculation",
+                "label": "Musculation / Fitness",
+                "points": {
+                    "sports": [
+                        "musculation"
+                    ]
+                }
+            },
+            {
+                "value": "yoga",
+                "label": "Yoga / Pilates",
+                "points": {
+                    "sports": [
+                        "yoga"
+                    ]
+                }
+            },
+            {
+                "value": "running",
+                "label": "Course à pied",
+                "points": {
+                    "sports": [
+                        "running"
+                    ]
+                }
+            },
+            {
+                "value": "natation",
+                "label": "Natation",
+                "points": {
+                    "sports": [
+                        "natation"
+                    ]
+                }
+            },
+            {
+                "value": "sports-collectifs",
+                "label": "Sports collectifs",
+                "points": {
+                    "sports": [
+                        "sports-collectifs"
+                    ]
+                }
+            },
+            {
+                "value": "autre",
+                "label": "Autre",
+                "points": {
+                    "sports": [
+                        "autre"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Quels sont vos objectifs principaux ?",
+        "type": "multiple",
+        "options": [
+            {
+                "value": "force",
+                "label": "Gagner en force musculaire",
+                "points": {
+                    "goals": [
+                        "force"
+                    ]
+                }
+            },
+            {
+                "value": "tonification",
+                "label": "Tonifier mon corps",
+                "points": {
+                    "goals": [
+                        "tonification"
+                    ]
+                }
+            },
+            {
+                "value": "souplesse",
+                "label": "Améliorer ma souplesse",
+                "points": {
+                    "goals": [
+                        "souplesse"
+                    ]
+                }
+            },
+            {
+                "value": "santé",
+                "label": "Rester en bonne santé",
+                "points": {
+                    "goals": [
+                        "santé"
+                    ]
+                }
+            },
+            {
+                "value": "relaxation",
+                "label": "Me relaxer et gérer le stress",
+                "points": {
+                    "goals": [
+                        "relaxation"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "À quelle fréquence vous entraînez-vous ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "1-2",
+                "label": "1-2 fois par semaine",
+                "points": {
+                    "frequency": "faible"
+                }
+            },
+            {
+                "value": "3-4",
+                "label": "3-4 fois par semaine",
+                "points": {
+                    "frequency": "modérée"
+                }
+            },
+            {
+                "value": "5+",
+                "label": "5 fois ou plus par semaine",
+                "points": {
+                    "frequency": "élevée"
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Avez-vous des douleurs ou limitations physiques ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "non",
+                "label": "Non, aucune",
+                "points": {
+                    "limitations": "aucune"
+                }
+            },
+            {
+                "value": "dos",
+                "label": "Douleurs au dos",
+                "points": {
+                    "limitations": "dos"
+                }
+            },
+            {
+                "value": "genoux",
+                "label": "Problèmes de genoux",
+                "points": {
+                    "limitations": "genoux"
+                }
+            },
+            {
+                "value": "epaules",
+                "label": "Douleurs aux épaules",
+                "points": {
+                    "limitations": "épaules"
+                }
+            },
+            {
+                "value": "autre",
+                "label": "Autre limitation",
+                "points": {
+                    "limitations": "autre"
+                }
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Combien de temps pouvez-vous consacrer à une séance ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "15-30",
+                "label": "15-30 minutes",
+                "points": {
+                    "duration": "courte"
+                }
+            },
+            {
+                "value": "30-45",
+                "label": "30-45 minutes",
+                "points": {
+                    "duration": "moyenne"
+                }
+            },
+            {
+                "value": "45+",
+                "label": "Plus de 45 minutes",
+                "points": {
+                    "duration": "longue"
+                }
+            }
+        ]
+    }
+]

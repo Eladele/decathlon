@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "Squats",
+        "category": "Force",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Quadriceps",
+            "Fessiers",
+            "Ischio-jambiers"
+        ],
+        "description": "Exercice fondamental pour renforcer le bas du corps et améliorer la posture.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "tonification",
+            "santé"
+        ],
+        "instructions": [
+            "Tenez-vous debout, pieds écartés à largeur d'épaules",
+            "Gardez le dos droit et la poitrine relevée",
+            "Pliez les genoux en poussant les hanches vers l'arrière",
+            "Descendez jusqu'à ce que vos cuisses soient parallèles au sol",
+            "Remontez en poussant sur vos talons"
+        ],
+        "commonMistakes": [
+            "Genoux qui dépassent les orteils",
+            "Dos arrondi",
+            "Talons qui se soulèvent",
+            "Descente trop rapide"
+        ],
+        "imageUrl": "squat_illustration"
+    },
+    {
+        "id": 2,
+        "name": "Pompes",
+        "category": "Force",
+        "difficulty": "intermédiaire",
+        "targetMuscles": [
+            "Pectoraux",
+            "Triceps",
+            "Épaules",
+            "Core"
+        ],
+        "description": "Exercice polyvalent pour le haut du corps et le gainage.",
+        "userProfiles": [
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "tonification"
+        ],
+        "instructions": [
+            "Placez vos mains au sol, légèrement plus larges que vos épaules",
+            "Vos pieds sont joints, corps aligné de la tête aux pieds",
+            "Gardez le core engagé, ne cambrez pas le dos",
+            "Descendez en pliant les coudes jusqu'à ce que votre poitrine touche presque le sol",
+            "Poussez pour remonter en gardant le corps droit"
+        ],
+        "commonMistakes": [
+            "Hanches trop hautes ou trop basses",
+            "Coudes trop écartés",
+            "Tête qui tombe",
+            "Amplitude incomplète"
+        ],
+        "imageUrl": "pushup_illustration"
+    },
+    {
+        "id": 3,
+        "name": "Planche",
+        "category": "Gainage",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Abdominaux",
+            "Core",
+            "Épaules"
+        ],
+        "description": "Exercice de gainage essentiel pour renforcer la ceinture abdominale.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "santé",
+            "tonification"
+        ],
+        "instructions": [
+            "Mettez-vous en position de pompe sur les avant-bras",
+            "Les coudes sont sous les épaules",
+            "Le corps forme une ligne droite de la tête aux pieds",
+            "Serrez les abdominaux et les fessiers",
+            "Maintenez la position sans bouger"
+        ],
+        "commonMistakes": [
+            "Hanches trop basses (dos cambré)",
+            "Hanches trop hautes",
+            "Tête qui tombe",
+            "Respiration bloquée"
+        ],
+        "imageUrl": "plank_illustration"
+    },
+    {
+        "id": 4,
+        "name": "Posture du Guerrier (Yoga)",
+        "category": "Yoga",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Jambes",
+            "Core",
+            "Équilibre"
+        ],
+        "description": "Posture de yoga pour améliorer l'équilibre et la flexibilité.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire"
+        ],
+        "goals": [
+            "souplesse",
+            "santé",
+            "relaxation"
+        ],
+        "instructions": [
+            "Depuis la position debout, faites un grand pas en arrière avec le pied gauche",
+            "Pliez le genou droit à 90 degrés",
+            "Le pied arrière est à 45 degrés",
+            "Levez les bras au-dessus de la tête",
+            "Gardez le regard vers l'avant, poitrine ouverte"
+        ],
+        "commonMistakes": [
+            "Genou avant qui dépasse l'orteil",
+            "Pied arrière mal positionné",
+            "Hanches non alignées",
+            "Épaules crispées"
+        ],
+        "imageUrl": "warrior_pose_illustration"
+    },
+    {
+        "id": 5,
+        "name": "Fentes",
+        "category": "Force",
+        "difficulty": "intermédiaire",
+        "targetMuscles": [
+            "Quadriceps",
+            "Fessiers",
+            "Ischio-jambiers"
+        ],
+        "description": "Exercice unilatéral excellent pour l'équilibre et la force des jambes.",
+        "userProfiles": [
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "tonification"
+        ],
+        "instructions": [
+            "Tenez-vous debout, pieds à largeur de hanches",
+            "Faites un pas en avant avec une jambe",
+            "Descendez en pliant les deux genoux à 90 degrés",
+            "Le genou arrière frôle le sol",
+            "Poussez sur le talon avant pour revenir"
+        ],
+        "commonMistakes": [
+            "Pas trop court",
+            "Genou avant qui dépasse",
+            "Buste penché en avant",
+            "Genou qui tourne vers l'intérieur"
+        ],
+        "imageUrl": "lunge_illustration"
+    },
+    {
+        "id": 6,
+        "name": "Étirement du Chat-Vache",
+        "category": "Yoga",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Dos",
+            "Core"
+        ],
+        "description": "Mouvement de yoga pour améliorer la mobilité de la colonne vertébrale.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "souplesse",
+            "santé",
+            "relaxation"
+        ],
+        "instructions": [
+            "À quatre pattes, mains sous les épaules, genoux sous les hanches",
+            "Inspirez: creusez le dos, relevez la tête et le bassin (vache)",
+            "Expirez: arrondissez le dos, rentrez le menton (chat)",
+            "Alternez lentement entre les deux positions",
+            "Synchronisez le mouvement avec la respiration"
+        ],
+        "commonMistakes": [
+            "Mouvement trop rapide",
+            "Ne pas respirer",
+            "Coudes verrouillés",
+            "Amplitude trop grande"
+        ],
+        "imageUrl": "cat_cow_illustration"
+    }
+]
