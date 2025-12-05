@@ -33,8 +33,7 @@ Application web dédiée à la santé posturale et au bien-être physique, déve
 
 ```bash
 # Cloner le repository
-git clone <repository-url>
-https://github.com/Eladele/decathlon
+git clone https://github.com/Eladele/decathlon
 cd decathlon
 
 # Installer les dépendances
