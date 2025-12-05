@@ -123,7 +123,7 @@
 /* Features Section */
 .features-section {
     padding: var(--spacing-2xl) 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--dark-card);
 }
 
 .section-title {

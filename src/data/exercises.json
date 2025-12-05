@@ -33,7 +33,7 @@
             "Talons qui se soulèvent",
             "Descente trop rapide"
         ],
-        "imageUrl": "squat_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500&h=400&fit=crop"
     },
     {
         "id": 2,
@@ -68,7 +68,7 @@
             "Tête qui tombe",
             "Amplitude incomplète"
         ],
-        "imageUrl": "pushup_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1598971861713-54d6c2c4c135?w=500&h=400&fit=crop"
     },
     {
         "id": 3,
@@ -104,7 +104,7 @@
             "Tête qui tombe",
             "Respiration bloquée"
         ],
-        "imageUrl": "plank_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=400&fit=crop"
     },
     {
         "id": 4,
@@ -139,7 +139,7 @@
             "Hanches non alignées",
             "Épaules crispées"
         ],
-        "imageUrl": "warrior_pose_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=400&fit=crop"
     },
     {
         "id": 5,
@@ -173,7 +173,7 @@
             "Buste penché en avant",
             "Genou qui tourne vers l'intérieur"
         ],
-        "imageUrl": "lunge_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1518611865084-bb3f5d2f1f10?w=500&h=400&fit=crop"
     },
     {
         "id": 6,
@@ -208,6 +208,314 @@
             "Coudes verrouillés",
             "Amplitude trop grande"
         ],
-        "imageUrl": "cat_cow_illustration"
+        "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 7,
+        "name": "Développé Épaules avec Haltères",
+        "category": "Force",
+        "difficulty": "intermédiaire",
+        "targetMuscles": [
+            "Épaules",
+            "Triceps",
+            "Core"
+        ],
+        "description": "Exercice pour développer la force et la masse des épaules.",
+        "userProfiles": [
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "tonification"
+        ],
+        "instructions": [
+            "Tenez-vous debout ou assis avec les haltères à hauteur d'épaules",
+            "Paumes vers l'avant, coudes à 90 degrés",
+            "Poussez les haltères vers le haut jusqu'à extension complète",
+            "Redescendez lentement à la position de départ",
+            "Gardez le core engagé tout le long"
+        ],
+        "commonMistakes": [
+            "Cambrer le dos",
+            "Mouvement trop rapide",
+            "Coudes verrouillés en haut",
+            "Amplitude incomplète"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "Crunch sur Swiss Ball",
+        "category": "Gainage",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Abdominaux",
+            "Core"
+        ],
+        "description": "Variante du crunch classique pour un travail abdominal plus efficace.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire"
+        ],
+        "goals": [
+            "force",
+            "tonification"
+        ],
+        "instructions": [
+            "Asseyez-vous sur le Swiss Ball et descendez jusqu'à avoir le bas du dos dessus",
+            "Pieds bien ancrés au sol, genoux à 90 degrés",
+            "Mains derrière la tête sans tirer sur le cou",
+            "Contractez les abdominaux pour soulever le haut du dos",
+            "Redescendez lentement sans relâcher complètement"
+        ],
+        "commonMistakes": [
+            "Tirer sur la nuque",
+            "Mouvement trop ample",
+            "Pieds qui décollent",
+            "Respiration bloquée"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 9,
+        "name": "Extension Lombaire",
+        "category": "Gainage",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Lombaires",
+            "Fessiers",
+            "Dos"
+        ],
+        "description": "Renforce les muscles du bas du dos pour une meilleure posture.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "santé",
+            "force"
+        ],
+        "instructions": [
+            "Allongez-vous sur le ventre, bras le long du corps",
+            "Gardez le regard vers le sol",
+            "Contractez les fessiers et le bas du dos",
+            "Soulevez légèrement le buste du sol",
+            "Maintenez 2-3 secondes et redescendez"
+        ],
+        "commonMistakes": [
+            "Lever trop haut",
+            "Tête relevée",
+            "Ne pas engager les fessiers",
+            "Mouvement brusque"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 10,
+        "name": "Corde à Sauter",
+        "category": "Cardio",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Mollets",
+            "Cardio",
+            "Coordination"
+        ],
+        "description": "Exercice cardio complet pour brûler des calories et améliorer l'endurance.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "santé",
+            "tonification"
+        ],
+        "instructions": [
+            "Tenez-vous debout, corde derrière vous",
+            "Coudes près du corps, rotation des poignets",
+            "Sautez légèrement en faisant passer la corde",
+            "Gardez les genoux légèrement fléchis",
+            "Respirez régulièrement"
+        ],
+        "commonMistakes": [
+            "Sauter trop haut",
+            "Bras trop écartés",
+            "Rythme irrégulier",
+            "Retenir sa respiration"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d0b3?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 11,
+        "name": "Rowing TRX",
+        "category": "Force",
+        "difficulty": "intermédiaire",
+        "targetMuscles": [
+            "Dos",
+            "Biceps",
+            "Core"
+        ],
+        "description": "Exercice de tirage avec sangles pour renforcer le dos.",
+        "userProfiles": [
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "force",
+            "tonification"
+        ],
+        "instructions": [
+            "Saisissez les poignées TRX, corps incliné",
+            "Pieds ancrés au sol, corps en ligne droite",
+            "Tirez votre corps vers les poignées",
+            "Gardez les coudes près du corps",
+            "Redescendez en contrôlant"
+        ],
+        "commonMistakes": [
+            "Hanches qui tombent",
+            "Coudes trop écartés",
+            "Amplitude trop faible",
+            "Corps qui se balance"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 12,
+        "name": "Pont Fessiers",
+        "category": "Force",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Fessiers",
+            "Ischio-jambiers",
+            "Lombaires"
+        ],
+        "description": "Excellent exercice pour renforcer et tonifier les fessiers.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "tonification",
+            "force"
+        ],
+        "instructions": [
+            "Allongez-vous sur le dos, genoux pliés, pieds à plat",
+            "Bras le long du corps, paumes vers le bas",
+            "Poussez sur les talons pour soulever les hanches",
+            "Contractez les fessiers en haut",
+            "Redescendez lentement sans toucher le sol"
+        ],
+        "commonMistakes": [
+            "Cambrer le dos",
+            "Monter trop haut",
+            "Pieds trop éloignés",
+            "Ne pas contracter les fessiers"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 13,
+        "name": "Posture de l'Enfant",
+        "category": "Yoga",
+        "difficulty": "débutant",
+        "targetMuscles": [
+            "Dos",
+            "Hanches",
+            "Relaxation"
+        ],
+        "description": "Posture de repos et d'étirement du yoga.",
+        "userProfiles": [
+            "débutant",
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "souplesse",
+            "relaxation",
+            "santé"
+        ],
+        "instructions": [
+            "À genoux, écartez légèrement les genoux",
+            "Asseyez-vous sur vos talons",
+            "Penchez-vous en avant, front au sol",
+            "Étendez les bras devant vous ou le long du corps",
+            "Respirez profondément et détendez-vous"
+        ],
+        "commonMistakes": [
+            "Forcer l'étirement",
+            "Respiration superficielle",
+            "Épaules crispées",
+            "Genoux trop serrés"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 14,
+        "name": "Roue Abdominale",
+        "category": "Gainage",
+        "difficulty": "avancé",
+        "targetMuscles": [
+            "Abdominaux",
+            "Core",
+            "Épaules"
+        ],
+        "description": "Exercice avancé pour un gainage intense.",
+        "userProfiles": [
+            "avancé"
+        ],
+        "goals": [
+            "force"
+        ],
+        "instructions": [
+            "À genoux, tenez la roue devant vous",
+            "Roulez lentement vers l'avant en gardant le dos droit",
+            "Allez aussi loin que possible sans cambrer",
+            "Contractez les abdominaux pour revenir",
+            "Gardez le mouvement contrôlé"
+        ],
+        "commonMistakes": [
+            "Cambrer le dos",
+            "Aller trop loin trop vite",
+            "Relâcher les abdominaux",
+            "Mouvement saccadé"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&h=400&fit=crop"
+    },
+    {
+        "id": 15,
+        "name": "Mountain Climbers",
+        "category": "Cardio",
+        "difficulty": "intermédiaire",
+        "targetMuscles": [
+            "Core",
+            "Cardio",
+            "Jambes"
+        ],
+        "description": "Exercice cardio dynamique pour brûler les calories.",
+        "userProfiles": [
+            "intermédiaire",
+            "avancé"
+        ],
+        "goals": [
+            "santé",
+            "tonification"
+        ],
+        "instructions": [
+            "Position de planche haute, mains sous les épaules",
+            "Amenez un genou vers la poitrine",
+            "Revenez et alternez rapidement avec l'autre jambe",
+            "Gardez les hanches basses",
+            "Maintenez un rythme constant"
+        ],
+        "commonMistakes": [
+            "Hanches trop hautes",
+            "Mouvement trop lent",
+            "Dos arrondi",
+            "Respiration irrégulière"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=400&fit=crop"
     }
 ]

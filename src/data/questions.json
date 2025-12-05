@@ -78,6 +78,15 @@
                 }
             },
             {
+                "value": "cyclisme",
+                "label": "Cyclisme / Vélo",
+                "points": {
+                    "sports": [
+                        "cyclisme"
+                    ]
+                }
+            },
+            {
                 "value": "autre",
                 "label": "Autre",
                 "points": {
@@ -135,6 +144,24 @@
                 "points": {
                     "goals": [
                         "relaxation"
+                    ]
+                }
+            },
+            {
+                "value": "endurance",
+                "label": "Améliorer mon endurance",
+                "points": {
+                    "goals": [
+                        "endurance"
+                    ]
+                }
+            },
+            {
+                "value": "perte-poids",
+                "label": "Perdre du poids",
+                "points": {
+                    "goals": [
+                        "perte-poids"
                     ]
                 }
             }
@@ -202,6 +229,13 @@
                 }
             },
             {
+                "value": "poignets",
+                "label": "Problèmes de poignets",
+                "points": {
+                    "limitations": "poignets"
+                }
+            },
+            {
                 "value": "autre",
                 "label": "Autre limitation",
                 "points": {
@@ -234,6 +268,146 @@
                 "label": "Plus de 45 minutes",
                 "points": {
                     "duration": "longue"
+                }
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Quel est votre niveau de stress quotidien ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "faible",
+                "label": "Faible - Je gère bien mon stress",
+                "points": {
+                    "stress": "faible"
+                }
+            },
+            {
+                "value": "modéré",
+                "label": "Modéré - J'ai des moments stressants",
+                "points": {
+                    "stress": "modéré"
+                }
+            },
+            {
+                "value": "élevé",
+                "label": "Élevé - Je suis souvent stressé(e)",
+                "points": {
+                    "stress": "élevé"
+                }
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Préférez-vous vous entraîner ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "maison",
+                "label": "À la maison",
+                "points": {
+                    "location": "maison"
+                }
+            },
+            {
+                "value": "salle",
+                "label": "En salle de sport",
+                "points": {
+                    "location": "salle"
+                }
+            },
+            {
+                "value": "exterieur",
+                "label": "En extérieur",
+                "points": {
+                    "location": "exterieur"
+                }
+            },
+            {
+                "value": "mixte",
+                "label": "Je varie les lieux",
+                "points": {
+                    "location": "mixte"
+                }
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Quelle est votre motivation principale pour faire du sport ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "physique",
+                "label": "Améliorer mon apparence physique",
+                "points": {
+                    "motivation": "physique"
+                }
+            },
+            {
+                "value": "sante",
+                "label": "Préserver ma santé",
+                "points": {
+                    "motivation": "sante"
+                }
+            },
+            {
+                "value": "performance",
+                "label": "Améliorer mes performances",
+                "points": {
+                    "motivation": "performance"
+                }
+            },
+            {
+                "value": "bien-etre",
+                "label": "Me sentir bien mentalement",
+                "points": {
+                    "motivation": "bien-etre"
+                }
+            },
+            {
+                "value": "social",
+                "label": "Aspect social et convivial",
+                "points": {
+                    "motivation": "social"
+                }
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Quel type d'entraînement préférez-vous ?",
+        "type": "single",
+        "options": [
+            {
+                "value": "force",
+                "label": "Entraînement de force (poids, résistance)",
+                "points": {
+                    "preference": "force"
+                }
+            },
+            {
+                "value": "cardio",
+                "label": "Cardio (course, vélo, HIIT)",
+                "points": {
+                    "preference": "cardio"
+                }
+            },
+            {
+                "value": "souplesse",
+                "label": "Souplesse et mobilité (yoga, stretching)",
+                "points": {
+                    "preference": "souplesse"
+                }
+            },
+            {
+                "value": "mixte",
+                "label": "Un mix de tout",
+                "points": {
+                    "preference": "mixte"
                 }
             }
         ]

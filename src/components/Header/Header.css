@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: var(--z-sticky);
-    background: rgba(10, 14, 39, 0.8);
+    background: var(--glass-bg);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-color);
     padding: var(--spacing-sm) 0;
@@ -93,6 +93,27 @@
 
 .nav-link:hover::after {
     width: 80%;
+}
+
+.btn-theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--light-text);
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.btn-theme-toggle:hover {
+    background: var(--dark-card-hover);
+    transform: rotate(15deg);
 }
 
 .btn-reset {

@@ -8,7 +8,7 @@
             4,
             6
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p1234567/yoga-mat.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=400&fit=crop",
         "description": "Tapis de yoga antidérapant, épais et confortable pour vos séances.",
         "decathlonUrl": "https://www.decathlon.fr/tapis-yoga"
     },
@@ -21,7 +21,7 @@
             1,
             5
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p2345678/resistance-bands.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500&h=400&fit=crop",
         "description": "Set de 3 bandes élastiques pour intensifier vos exercices de jambes.",
         "decathlonUrl": "https://www.decathlon.fr/bandes-resistance"
     },
@@ -33,7 +33,7 @@
         "relatedExercises": [
             2
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p3456789/pushup-bars.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=500&h=400&fit=crop",
         "description": "Poignées pour pompes qui réduisent la pression sur les poignets.",
         "decathlonUrl": "https://www.decathlon.fr/poignees-pompes"
     },
@@ -46,7 +46,7 @@
             1,
             5
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p4567890/kettlebell.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&h=400&fit=crop",
         "description": "Kettlebell robuste pour intensifier vos squats et fentes.",
         "decathlonUrl": "https://www.decathlon.fr/kettlebell"
     },
@@ -63,7 +63,7 @@
             5,
             6
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p5678901/sport-outfit.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500&h=400&fit=crop",
         "description": "Ensemble confortable et respirant pour tous vos entraînements.",
         "decathlonUrl": "https://www.decathlon.fr/vetements-sport"
     },
@@ -76,7 +76,7 @@
             4,
             6
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p6789012/yoga-block.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=400&fit=crop",
         "description": "Bloc en mousse pour faciliter les postures de yoga.",
         "decathlonUrl": "https://www.decathlon.fr/bloc-yoga"
     },
@@ -93,7 +93,7 @@
             5,
             6
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p7890123/water-bottle.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=500&h=400&fit=crop",
         "description": "Gourde isotherme pour rester hydraté pendant vos séances.",
         "decathlonUrl": "https://www.decathlon.fr/gourde"
     },
@@ -107,8 +107,167 @@
             2,
             5
         ],
-        "imageUrl": "https://contents.mediadecathlon.com/p8901234/foam-roller.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop",
         "description": "Rouleau en mousse pour la récupération musculaire.",
         "decathlonUrl": "https://www.decathlon.fr/rouleau-massage"
+    },
+    {
+        "id": 9,
+        "name": "Haltères 2x3kg",
+        "price": 22.99,
+        "category": "Musculation",
+        "relatedExercises": [
+            2,
+            7
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&h=400&fit=crop",
+        "description": "Paire d'haltères pour renforcement musculaire à domicile.",
+        "decathlonUrl": "https://www.decathlon.fr/halteres"
+    },
+    {
+        "id": 10,
+        "name": "Swiss Ball 65cm",
+        "price": 16.99,
+        "category": "Fitness",
+        "relatedExercises": [
+            3,
+            8
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=400&fit=crop",
+        "description": "Ballon de gym pour exercices de gainage et d'équilibre.",
+        "decathlonUrl": "https://www.decathlon.fr/swiss-ball"
+    },
+    {
+        "id": 11,
+        "name": "Tapis de Sol Épais",
+        "price": 24.99,
+        "category": "Fitness",
+        "relatedExercises": [
+            3,
+            6,
+            9
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop",
+        "description": "Tapis de protection pour exercices au sol.",
+        "decathlonUrl": "https://www.decathlon.fr/tapis-sol"
+    },
+    {
+        "id": 12,
+        "name": "Corde à Sauter",
+        "price": 9.99,
+        "category": "Cardio",
+        "relatedExercises": [
+            10
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d0b3?w=500&h=400&fit=crop",
+        "description": "Corde à sauter ajustable pour le cardio.",
+        "decathlonUrl": "https://www.decathlon.fr/corde-sauter"
+    },
+    {
+        "id": 13,
+        "name": "Sangles TRX",
+        "price": 54.99,
+        "category": "Musculation",
+        "relatedExercises": [
+            2,
+            11
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&h=400&fit=crop",
+        "description": "Système de suspension pour entraînement fonctionnel.",
+        "decathlonUrl": "https://www.decathlon.fr/trx"
+    },
+    {
+        "id": 14,
+        "name": "Balle de Pilates",
+        "price": 12.99,
+        "category": "Pilates",
+        "relatedExercises": [
+            3,
+            9
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop",
+        "description": "Petite balle pour exercices de Pilates et renforcement.",
+        "decathlonUrl": "https://www.decathlon.fr/balle-pilates"
+    },
+    {
+        "id": 15,
+        "name": "Élastique de Fitness",
+        "price": 8.99,
+        "category": "Fitness",
+        "relatedExercises": [
+            1,
+            5,
+            12
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500&h=400&fit=crop",
+        "description": "Bande élastique pour musculation et rééducation.",
+        "decathlonUrl": "https://www.decathlon.fr/elastique"
+    },
+    {
+        "id": 16,
+        "name": "Chaussures de Training",
+        "price": 49.99,
+        "category": "Vêtements",
+        "relatedExercises": [
+            1,
+            2,
+            5,
+            10
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=400&fit=crop",
+        "description": "Chaussures polyvalentes pour tous types d'entraînement.",
+        "decathlonUrl": "https://www.decathlon.fr/chaussures-training"
+    },
+    {
+        "id": 17,
+        "name": "Sangle de Yoga",
+        "price": 11.99,
+        "category": "Yoga",
+        "relatedExercises": [
+            4,
+            6,
+            13
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&h=400&fit=crop",
+        "description": "Sangle d'étirement pour améliorer la flexibilité.",
+        "decathlonUrl": "https://www.decathlon.fr/sangle-yoga"
+    },
+    {
+        "id": 18,
+        "name": "Banc de Musculation",
+        "price": 89.99,
+        "category": "Musculation",
+        "relatedExercises": [
+            2,
+            7
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=400&fit=crop",
+        "description": "Banc ajustable pour exercices de musculation variés.",
+        "decathlonUrl": "https://www.decathlon.fr/banc-musculation"
+    },
+    {
+        "id": 19,
+        "name": "Roue Abdominale",
+        "price": 13.99,
+        "category": "Fitness",
+        "relatedExercises": [
+            3,
+            14
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&h=400&fit=crop",
+        "description": "Roue pour renforcement intensif des abdominaux.",
+        "decathlonUrl": "https://www.decathlon.fr/roue-abdominale"
+    },
+    {
+        "id": 20,
+        "name": "Tapis de Course Pliable",
+        "price": 399.99,
+        "category": "Cardio",
+        "relatedExercises": [
+            10
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=500&h=400&fit=crop",
+        "description": "Tapis de course compact pour entraînement cardio à domicile.",
+        "decathlonUrl": "https://www.decathlon.fr/tapis-course"
     }
 ]

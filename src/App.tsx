@@ -24,7 +24,7 @@ function App() {
           <footer className="footer">
             <div className="container">
               <p>
-                © 2024 Decathlon Digital - Nuit de l'Info Challenge{' '}
+                © 2025 Decathlon Digital - Nuit de l'Info Challenge{' '}
                 <span className="footer-heart">❤️</span>
               </p>
             </div>

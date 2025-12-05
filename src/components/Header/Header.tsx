@@ -2,8 +2,11 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import { useUser } from '../../context/UserContext';
 
+import { useTheme } from '../../context/ThemeContext';
+
 const Header = () => {
     const { userProfile, resetProfile } = useUser();
+    const { theme, toggleTheme } = useTheme();
 
     return (
         <header className="header">
@@ -21,6 +24,14 @@ const Header = () => {
                         <Link to="/" className="nav-link">Accueil</Link>
                         <Link to="/qcm" className="nav-link">Profil</Link>
                         <Link to="/exercises" className="nav-link">Exercices</Link>
+
+                        <button
+                            onClick={toggleTheme}
+                            className="btn-theme-toggle"
+                            aria-label="Toggle theme"
+                        >
+                            {theme === 'light' ? '🌙' : '☀️'}
+                        </button>
 
                         {userProfile && (
                             <button onClick={resetProfile} className="btn-reset">

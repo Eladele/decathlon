@@ -6,11 +6,26 @@ interface VisualGuideProps {
 }
 
 const VisualGuide = ({ exercise }: VisualGuideProps) => {
-    // For now, using placeholder images. In production, these would be real images/animations
+    // Using online images for posture visualization
     const visualImages = [
-        { id: 1, title: 'Position de départ', description: 'Visualisation de la posture initiale' },
-        { id: 2, title: 'Mouvement', description: 'Exécution correcte du mouvement' },
-        { id: 3, title: 'Position finale', description: 'Posture à la fin du mouvement' }
+        {
+            id: 1,
+            title: 'Position de départ',
+            description: 'Visualisation de la posture initiale',
+            imageUrl: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500&h=400&fit=crop'
+        },
+        {
+            id: 2,
+            title: 'Mouvement',
+            description: 'Exécution correcte du mouvement',
+            imageUrl: 'https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=500&h=400&fit=crop'
+        },
+        {
+            id: 3,
+            title: 'Position finale',
+            description: 'Posture à la fin du mouvement',
+            imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=400&fit=crop'
+        }
     ];
 
     return (
@@ -26,13 +41,15 @@ const VisualGuide = ({ exercise }: VisualGuideProps) => {
             <div className="visual-grid">
                 {visualImages.map((visual) => (
                     <div key={visual.id} className="visual-card glass-card">
-                        <div className="visual-placeholder">
-                            <div className="visual-icon">
-                                {exercise.category === 'Yoga' ? '🧘' :
-                                    exercise.category === 'Force' ? '💪' : '🏃'}
-                            </div>
-                            <div className="visual-animation">
-                                <div className="animation-pulse"></div>
+                        <div className="visual-image-container">
+                            <img
+                                src={visual.imageUrl}
+                                alt={visual.title}
+                                className="visual-image"
+                                loading="lazy"
+                            />
+                            <div className="visual-overlay">
+                                <div className="visual-step-number">{visual.id}</div>
                             </div>
                         </div>
                         <div className="visual-info">
